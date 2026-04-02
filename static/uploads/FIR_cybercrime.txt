@@ -1,0 +1,60 @@
+FIRST INFORMATION REPORT (FIR)
+
+Police Station: Cyber Crime Police Station, Chennai
+FIR No.: 123/2026
+Date: 31/03/2026
+Time of Registration: 08:30 PM
+
+Complainant Details:
+Name: Dev Kumar
+Age: 29 years
+Occupation: Software Engineer
+Address: 14, Lake View Road, Anna Nagar, Chennai, Tamil Nadu
+
+Accused Details:
+Name: Raj Sharma
+Age: 31 years
+Occupation: Freelance IT Consultant
+Address: 22, Green Park Street, Velachery, Chennai, Tamil Nadu
+
+Offence Type: Cyber Crime, Unauthorized Access, Online Harassment, Data Theft, Criminal Intimidation
+
+Sections Applied:
+Sections under the Information Technology Act, 2000 and relevant provisions of the Bharatiya Nyaya Sanhita / applicable criminal law.
+
+Occurrence of Offence:
+Date: Between 20/03/2026 and 29/03/2026
+Place: Through online communication platforms, email, and unauthorized access to personal accounts.
+
+Complaint Statement:
+I, Dev Kumar, hereby submit that over the past several days, I have been subjected to repeated cyber harassment and unauthorized digital intrusion by Raj Sharma, whom I know personally. Raj had earlier worked with me on a freelance technical project, during which he had limited access to my professional email address and certain shared files.
+
+On 20/03/2026, I began receiving suspicious login alerts on my email and cloud storage accounts. Soon after, several confidential personal and professional documents were accessed without my permission. I also noticed that some of my online accounts had login attempts from unknown devices and locations.
+
+Thereafter, I started receiving threatening messages from Raj through email and social media platforms. In those messages, he claimed that he had obtained copies of my personal files, chat records, and project documents. He further threatened to leak or misuse this information unless I paid him money and withdrew certain professional complaints I had made against him.
+
+On 25/03/2026, one of my social media accounts was temporarily compromised, and unauthorized posts/messages were sent from it. I also found that some sensitive files stored on my laptop and linked cloud drive had been copied and altered. Based on the content of the threatening messages, prior disputes, and digital traces available with me, I strongly suspect Raj Sharma to be responsible for these illegal activities.
+
+The acts committed by Raj Sharma have caused me mental stress, reputational harm, invasion of privacy, and fear for my personal and professional safety. I request the police to register my complaint, investigate the cyber offences, trace the digital evidence, and take necessary legal action against the accused.
+
+Evidence Submitted:
+
+Screenshots of threatening emails and messages
+
+Login alert emails showing suspicious access
+
+Copies of altered and accessed documents
+
+Social media account activity logs
+
+Contact details and prior communication records with the accused
+
+Prayer:
+It is requested that necessary action be taken against Raj Sharma for unauthorized access, data theft, online intimidation, and related cyber offences as per law.
+
+Signature / Thumb Impression of Complainant:
+Dev Kumar
+
+Recorded by:
+Duty Officer
+Cyber Crime Police Station, Chennai
