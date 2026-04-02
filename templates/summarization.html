@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Dashboard | Summarization</title>
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reports_styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .upload-card {
+            border-radius: 12px;
+        }
+        .summary-box {
+            min-height: 200px;
+            resize: none;
+            border-radius: 10px;
+        }
+        .btn-custom {
+            padding: 10px 25px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+<!-- Header -->
+<header class="bg-dark text-white p-4 d-flex justify-content-between align-items-center shadow">
+    <h4 class="ms-3">
+        <i class="fas fa-balance-scale me-2 text-warning"></i>
+        LEGALBOT <span class="text-warning">Lawyer Dashboard</span>
+    </h4>
+
+    <nav>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="mx-3"><a href="{{ url_for('lawyer_home') }}" class="text-white fs-6">Home</a></li>
+            <li class="mx-3"><a href="{{ url_for('cases') }}" class="text-white fs-6">Cases</a></li>
+            <li class="mx-3"><a href="{{ url_for('view_details') }}" class="text-white fs-6">View Details</a></li>
+            <li class="mx-3"><a href="{{ url_for('Chatbot') }}" target="_blank" class="text-white fs-6">Chatbot</a></li>
+            <li class="mx-3"><a href="{{ url_for('summarization') }}" class="text-warning fs-6">Summarization</a></li>
+            <li class="mx-3"><a href="{{ url_for('logout') }}" class="text-danger fs-6">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<div class="container mt-5">
+
+    <div class="card upload-card shadow p-4">
+        <h4 class="text-center text-primary mb-3">
+            <i class="fas fa-file-pdf me-2"></i> Case Document Summarization
+        </h4>
+        <p class="text-center text-muted mb-4">
+            Upload a legal case PDF to generate an AI-based summarized report.
+        </p>
+
+        <form method="POST" enctype="multipart/form-data" class="text-center">
+            <div class="mb-4">
+                <input type="file" name="pdf" accept=".pdf" class="form-control" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-custom">
+                <i class="fas fa-magic me-2"></i> Generate Summary
+            </button>
+        </form>
+    </div>
+
+    {% if summary %}
+    <div class="card shadow mt-5 p-4">
+        <h5 class="text-success mb-3">
+            <i class="fas fa-clipboard-list me-2"></i> Generated Case Summary
+        </h5>
+
+        <textarea class="form-control summary-box" readonly>{{ summary }}</textarea>
+
+        <div class="text-end mt-3">
+            <button class="btn btn-outline-secondary btn-sm" onclick="navigator.clipboard.writeText(`{{ summary }}`)">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    &copy; 2026 LegalBot | AI-Powered Legal Assistant
+</footer>
+
+</body>
+</html>
